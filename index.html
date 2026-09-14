@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday Mody 🎂❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffd6e7, #e5d5ff, #ffe9d6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #4b315c;
+      overflow-x: hidden;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 650px;
+      margin: 30px auto;
+      background: rgba(255,255,255,0.88);
+      padding: 35px 25px;
+      border-radius: 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    }
+
+    .cake {
+      font-size: 75px;
+      animation: bounce 2s infinite;
+    }
+
+    h1 {
+      font-size: 38px;
+      color: #d85b91;
+      margin: 10px 0;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      line-height: 1.8;
+    }
+
+    button {
+      border: none;
+      background: linear-gradient(135deg, #d85b91, #9b6cff);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    #message {
+      display: none;
+      margin-top: 30px;
+      line-height: 2;
+      font-size: 19px;
+      animation: fade 1.2s ease;
+    }
+
+    .message-box {
+      background: #fff5fa;
+      padding: 25px;
+      border-radius: 25px;
+      border: 2px solid #ffd0e3;
+    }
+
+    .hearts {
+      font-size: 30px;
+      margin-top: 20px;
+      letter-spacing: 8px;
+    }
+
+    .small {
+      font-size: 15px;
+      color: #97718b;
+      margin-top: 20px;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="cake">🎂</div>
+
+    <h1>Happy Birthday Mody ❤️</h1>
+
+    <p class="subtitle">
+      🎉 كل سنة وإنت طيب يا مودي 🎉
+      <br>
+      وعقبال أجمل سنين جاية في حياتك ❤️
+    </p>
+
+    <button onclick="showMessage()">
+      🎁 عندي حاجة أقولها لك
+    </button>
+
+    <div id="message">
+
+      <div class="message-box">
+
+        <p>
+          كل سنة وإنت طيب يا مودي ❤️
+          <br><br>
+
+          وعقبال مليون سنة يا روحي،
+          وإنت دايمًا فرحان ومبسوط 🥰
+          <br><br>
+
+          وحبيت أقولك إن تم التجديد ليك
+          <strong>3 شهور كمان 😂❤️</strong>
+          <br>
+          يلا يا عم ابسط بقى 😌😂
+          <br><br>
+
+          وإن شاء الله تبقى أشطر وأنجح دكتور في الدنيا 🩺✨
+          <br><br>
+
+          وعندي أمل كبير إن ربنا هيكرمك ويوفقك،
+          عشان إنت فعلًا حد كويس وتستاهل كل خير ❤️
+          <br><br>
+
+          وبجد بجد...
+          <br>
+          أحلى 21 سنة في الدنيا 🎂❤️
+          <br><br>
+
+          وعقبال الستين،
+          مش هقول مليون عشان كتير الصراحة 😂❤️
+          <br><br>
+
+          وحبيت أقولك يعني...
+          <br>
+          <strong>بحبك يا مودي 😍😘❤️</strong>
+        </p>
+
+        <div class="hearts">
+          💗 ❤️ 💕 ❤️ 💗
+        </div>
+
+      </div>
+
+      <p class="small">
+        Made with love 🎀
+      </p>
+
+    </div>
+
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
